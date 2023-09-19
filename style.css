@@ -7,10 +7,14 @@
     src: url(fontes/idroid.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #c9e9d5;
-    margin: auto;
 }
 
 p {
@@ -22,12 +26,14 @@ p {
     display: inline-block;
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+    text-indent: 0px;
+    margin-top: 40px;
 }
 
 main {
     background-color: white;
     width: 80%;
-    min-width: min-content;
+    min-width: 328px;
     margin: auto;
     padding: 24px;
     border-radius: 0px 0px 10px 8px;
@@ -109,6 +115,8 @@ a.text-link::after {
 
 img {
     margin: auto;
+    width: 100%;
+    display: block;
 }
 
 #video {
