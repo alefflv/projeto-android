@@ -65,7 +65,8 @@ header {
 }
 nav {
     background-color: #114b2a;
-    padding: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
     font-weight: bold;
 }
 
